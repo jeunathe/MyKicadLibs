@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-18 BZR 5525)-product   date = 21/03/2015 13:02:11
+
+BeginCmp
+TimeStamp = /550D5C5F;
+Reference = CB1;
+ValeurCmp = CapacitiveButton;
+IdModule  = testProjKicad:CapacitiveButton10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C4C23;
+Reference = CON1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C4C5C;
+Reference = P1;
+ValeurCmp = CONN_01X08;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C4B11;
+Reference = U1;
+ValeurCmp = 74HC595;
+IdModule  = Housings_DIP:DIP-16__300_ELL;
+EndCmp
+
+EndListe

@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# CapacitiveButton
+#
+DEF CapacitiveButton  CB 0 40 Y Y 1 F N
+F0 " CB" 450 -350 60 H V C CNN
+F1 "CapacitiveButton" 450 300 60 H V C CNN
+F2 "" 450 0 60 H V C CNN
+F3 "" 450 0 60 H V C CNN
+DRAW
+C 450 0 250 0 1 0 N
+X Pin 1 0 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capwheel_4zones
+#
+DEF Capwheel_4zones CP 0 40 Y Y 1 F N
+F0 "CP" 0 550 60 H V C CNN
+F1 "Capwheel_4zones" 150 0 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 472 0 1 0 N
+X Zone1 1 -600 200 200 R 50 50 1 1 P
+X Zone2 2 -600 100 200 R 50 50 1 1 P
+X Zone3 3 -600 0 200 R 50 50 1 1 P
+X Zone4 4 -600 -100 200 R 50 50 1 1 P
+X Center 5 -600 -250 200 R 50 50 1 1 P
+X GND 6 0 -650 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
